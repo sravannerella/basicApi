@@ -2,14 +2,16 @@
 
 ### Installation
 
-```js
-    $   npm i
+```bash
+    $   git clone https://github.com/sravannerella/basicApi.git
+    $   cd basicApi
+    $   npm install
     $   node index.js  // Your server will be running in port 8080
 ```
 
 ### Usage
 
-- <b>/random</b> - This route will generate a random number between 0 and 9.
+- <b>/random</b> - This route will generate a random number between 1 and 10.
 
 ```
     {
