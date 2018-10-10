@@ -1,7 +1,10 @@
 const express = require('express'),
       app = express(),
+      cors = require('cors'),
       PORT = process.env.PORT || 8080;
 
+
+app.use(cors());
 
 app.listen(PORT, (req, resp)=> {
     console.log("Server is listening in PORT: ", PORT);
