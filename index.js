@@ -6,6 +6,8 @@ const express = require('express'),
 
 app.use(cors());
 
+app.options('*', cors());
+
 app.listen(PORT, (req, resp)=> {
     console.log("Server is listening in PORT: ", PORT);
 });
